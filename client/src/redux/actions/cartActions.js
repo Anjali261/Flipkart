@@ -1,6 +1,6 @@
 
 import axios from 'axios';
-import * as actionType from '../constants/cartConstant';
+import * as actionType from '../constrants/cartConstant';
 
 const URL = "http://localhost:8000"
 
