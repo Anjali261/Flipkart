@@ -2,8 +2,6 @@ import React from 'react'
 import {Box, Button, Dialog, TextField, Typography, styled} from "@mui/material"
 import { useState, useContext } from 'react'
 import { authenticateSignup , authenticatelogin } from '../../service/api'
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import  { DataContext } from '../../context/DataProvider';
 
 
